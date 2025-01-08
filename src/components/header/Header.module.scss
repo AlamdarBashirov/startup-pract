@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    padding-top: 25px;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        .navigation{
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                list-style: none;
+                li{
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .sayHello{
+            button{
+                color: white;
+                background-color: transparent;
+                border: none;
+                padding-bottom: 10px;
+                border-bottom: 2px solid #615CFD;
+            }
+        }
+    }
+}
